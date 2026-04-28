@@ -1,13 +1,34 @@
 #EXTM3U
 
-#EXTINF:-1, NOW TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
+# --- ULUSAL KANALLAR ---
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iptv-org/logos/master/languages/tur/TRT1.png", TRT 1
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iptv-org/logos/master/languages/tur/NOW.png", NOW TV
 https://nowtv-live.daioncdn.net/nowtv/nowtv.m3u8
 
-#EXTINF:-1, TV8
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iptv-org/logos/master/languages/tur/TV8.png", TV8
 https://tv8-live.daioncdn.net/tv8/tv8.m3u8
 
-#EXTINF:-1, KANAL D
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iptv-org/logos/master/languages/tur/KanalD.png", KANAL D
 https://kanald-live.daioncdn.net/kanald/kanald.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iptv-org/logos/master/languages/tur/StarTV.png", STAR TV
+https://startv-live.daioncdn.net/startv/startv.m3u8
+
+# --- HABER KANALLARI ---
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iptv-org/logos/master/languages/tur/TRTHaber.png", TRT HABER
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iptv-org/logos/master/languages/tur/HaberTurk.png", HABERTÜRK
+https://haberturk-live.daioncdn.net/haberturk/haberturk.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iptv-org/logos/master/languages/tur/NTV.png", NTV
+https://dyg-ntv-live.daioncdn.net/ntv/ntv.m3u8
+
+# --- SPOR VE BELGESEL ---
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iptv-org/logos/master/languages/tur/TRTSpor.png", TRT SPOR
+https://tv-trtspor1.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iptv-org/logos/master/languages/tur/TRTBelgesel.png", TRT BELGESEL
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
