@@ -1,11 +1,13 @@
 #EXTM3U
 
-# 🇹🇷 ULUSAL KANALLAR
-#EXTINF:-1 group-title="TR",TRT 1
-https://tv-trt1.live.trt.com.tr/master.m3u8
+#EXTINF:-1, NOW TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://nowtv-live.daioncdn.net/nowtv/nowtv.m3u8
 
-#EXTINF:-1 group-title="TR",TRT Haber
-https://tv-trthaber.live.trt.com.tr/master.m3u8
+#EXTINF:-1, TV8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://tv8-live.daioncdn.net/tv8/tv8.m3u8
 
-#EXTINF:-1 group-title="TR",TRT Spor
-https://tv-trtspor.live.trt.com.tr/master.m3u8
+#EXTINF:-1, KANAL D
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://kanald-live.daioncdn.net/kanald/kanald.m3u8
